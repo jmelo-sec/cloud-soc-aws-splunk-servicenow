@@ -4,7 +4,7 @@ End-to-end SOC Tier 1 project simulating detection, triage and incident handling
 of suspicious AWS authentication activity using enterprise-grade tools.
 
 ---
-![ServiceNow Incident](screenshots/01-servicenow-incidents.png)
+
 
 ## Overview
 This project demonstrates a realistic **SOC Tier 1** workflow using enterprise-grade tools commonly found in production environments.
