@@ -110,6 +110,14 @@ Below is a real incident created in a ServiceNow Developer Program instance afte
 
 --- 
 
+## Recruiter note
+
+This project focuses on SOC Tier 1 responsibilities: detection, triage,
+documentation and escalation. Containment and remediation actions
+are intentionally handled by SOC Tier 2 / Cloud Security teams.
+
+---
+
 ## Skills demonstrated
 
 - SIEM alert triage and SPL-based detection
