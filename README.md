@@ -1,5 +1,5 @@
 ---
-![ServiceNow Incident](screenshots/servicenow_incident.png)
+![ServiceNow Incident](screenshots/01-servicenow-incidents.png)
 
 ## Overview
 This project demonstrates a realistic **SOC Tier 1** workflow using enterprise-grade tools commonly found in production environments.
