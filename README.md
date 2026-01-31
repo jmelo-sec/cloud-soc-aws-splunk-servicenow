@@ -23,12 +23,12 @@ The goal is to detect suspicious authentication activity in AWS, analyze it in a
 ### AWS CloudTrail enabled
 CloudTrail is enabled to capture AWS ConsoleLogin events and send them to CloudWatch Logs.
 
-![AWS CloudTrail](/assets/img/cloud-soc/02-cloudtrail-created.png)
+![AWS CloudTrail](screenshots/02-cloudtrail-created.png)
 
 ### CloudWatch Logs
 CloudTrail events are delivered to CloudWatch Logs for centralized collection.
 
-![CloudWatch Logs](/assets/img/cloud-soc/03-cloudwatch-loggroup.png)
+![CloudWatch Logs](screenshots/03-cloudwatch-loggroup.png)
 
 ---
 
@@ -50,7 +50,7 @@ Logic:
 ### Splunk search results
 AWS ConsoleLogin events are ingested into Splunk and validated by SOC L1.
 
-![Splunk search](/assets/img/cloud-soc/05-splunk-consolelogin-detection.png)
+![Splunk search](screenshots/05-splunk-consolelogin-detection.png)
 
 Example SPL:
 
@@ -68,7 +68,7 @@ index=main sourcetype=aws:cloudtrail eventName=ConsoleLogin
 ### Splunk alert
 The detection is saved as a scheduled alert to notify SOC L1.
 
-![Splunk alert](/assets/img/cloud-soc/06-splunk-alert-config.png)
+![Splunk alert](screenshots/06-splunk-alert-config.png)
 
 ---
 
@@ -95,7 +95,7 @@ When the alert is validated by SOC L1, an incident is created in ServiceNow ITSM
 ### ServiceNow incident
 After validation, a security incident is created in ServiceNow ITSM.
 
-![ServiceNow incident](/assets/img/cloud-soc/01-servicenow-incidents.png)
+![ServiceNow incident](screenshots/cloud-soc/01-servicenow-incidents.png)
 
 ---
 
