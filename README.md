@@ -1,8 +1,4 @@
 ---
-title: "Cloud SOC Mini-Lab: AWS, Splunk & ServiceNow"
-layout: page
-permalink: /projects/cloud-soc-aws-splunk-servicenow/
----
 ![ServiceNow Incident](/assets/img/servicenow_incident.png)
 
 ## Overview
